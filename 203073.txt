@@ -1,0 +1,26 @@
+C:\Users\PC4ALL>git init 
+C:\Users\PC4ALL>git clone https://github.com/aprojcheska/SI_2022_lab1_203073.git - клонирање на репозиториумот
+C:\Users\PC4ALL>cd SI_2022_lab1_203073
+C:\Users\PC4ALL\SI_2022_lab1_203073>git add . - додавање на датотеката на сцена
+C:\Users\PC4ALL\SI_2022_lab1_203073>git commit -m "Add 5 items to the shopping list" - комит на датотеката
+C:\Users\PC4ALL\SI_2022_lab1_203073>git add . - додавање на датотеката со направените промени на сцена
+C:\Users\PC4ALL\SI_2022_lab1_203073>git commit -m "Add quantities to the items" - комит на датотеката
+C:\Users\PC4ALL\SI_2022_lab1_203073>git checkout -b branch1 - додавање нова гранка
+C:\Users\PC4ALL\SI_2022_lab1_203073>git checkout -b branch2 - додавање нова гранка
+C:\Users\PC4ALL\SI_2022_lab1_203073>git push --all - синхронизација
+C:\Users\PC4ALL\SI_2022_lab1_203073>git checkout branch1 - префрлање на branch1
+C:\Users\PC4ALL\SI_2022_lab1_203073>git add . - додавање на датотеката на сцена
+C:\Users\PC4ALL\SI_2022_lab1_203073>git commit -m "Change quantity of item #5" - комит на датотеката
+C:\Users\PC4ALL\SI_2022_lab1_203073>git checkout master - префрлање на master
+C:\Users\PC4ALL\SI_2022_lab1_203073>git commit -a -m "Change quantity of item #2" - додавање и комит на датотеката
+C:\Users\PC4ALL\SI_2022_lab1_203073>git checkout branch2 - префрлање на branch2
+C:\Users\PC4ALL\SI_2022_lab1_203073>git commit -a -m "Modify item #4" - додавање и комит на датотеката
+C:\Users\PC4ALL\SI_2022_lab1_203073>git add . - додавање на изменетата датотеката на сцена
+C:\Users\PC4ALL\SI_2022_lab1_203073>git commit --amend -m "Modify item #4 and add item #6" - додавање на изменетата датотека на претходниот комит
+C:\Users\PC4ALL\SI_2022_lab1_203073>git checkout master - префрлање на master
+C:\Users\PC4ALL\SI_2022_lab1_203073>git merge branch1 - при спојувањето нема конфликт и се врши со рекурзивна стратегија
+C:\Users\PC4ALL\SI_2022_lab1_203073>git merge branch2 - при спојувањето се јавува конфликт затоа што документот кој го има на master е различен од тој на branch2, конфликтот ќе се реши со промена во документот и нов комит
+C:\Users\PC4ALL\SI_2022_lab1_203073>git commit -a -m "Conflict solved" - комит за решението на конфликтот
+C:\Users\PC4ALL\SI_2022_lab1_203073>git add . - додавање на датотеката со документација
+C:\Users\PC4ALL\SI_2022_lab1_203073>git commit -m "Add docs" - комит на датотеката
+C:\Users\PC4ALL\SI_2022_lab1_203073>git push --all - синхронизација
