@@ -2,4 +2,4 @@ Eggs x 10
 Milk x 1
 Juice x 2
 Cheese x 1
-Apples x 6
+Apples x 10
